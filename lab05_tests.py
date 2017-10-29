@@ -281,4 +281,4 @@ def test_onlyEvens_8():
 
 if __name__ == '__main__':
    import pytest
-   pytest.main(["./lab05_tests.py"])
+   pytest.main(["./lab05_tests.py", "--capture=sys"])
