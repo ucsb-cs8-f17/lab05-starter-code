@@ -191,32 +191,3 @@ def onlyEvens(listOfInts):
     """
 
     return "stub"
-    
- 
-def test_onlyEvens_1():
-   assert onlyEvens('1')==False
-
-def test_onlyEvens_1():
-   assert onlyEvens(['a','b'])==False
-
-def test_onlyEvens_1():
-   assert onlyEvens([])==[]
-
-def test_onlyEvens_1():
-   assert onlyEvens([1,2,3,4,5])==[2, 4]
-
-def test_onlyEvens_1():
-   assert onlyEvens([1])==[]
-
-def test_onlyEvens_1():
-   assert onlyEvens([1,3])==[]
-
-def test_onlyEvens_1():
-   assert onlyEvens([3,2])==[2]
-
-def test_onlyEvens_1():
-   assert onlyEvens([2,3,4])==[2, 4]
-
-
-
-
